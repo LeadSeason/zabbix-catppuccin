@@ -1,0 +1,2 @@
+# zabbix-catppuccin
+Zabbix Catppuccin
