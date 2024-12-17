@@ -1,4 +1,38 @@
-$theme-name: 'dark';
+$theme-name: 'catppuccin-mocha';
+
+$Rosewater: #f5e0dc;
+$Flamingo: #f2cdcd;
+$Pink: #f5c2e7;
+$Mauve: #cba6f7;
+$Red: #f38ba8;
+$Maroon: #eba0ac;
+$Peach: #fab387;
+$Yellow: #f9e2af;
+$Green: #a6e3a1;
+$Teal: #94e2d5;
+$Sky: #89dceb;
+$Sapphire: #74c7ec;
+$Blue: #89b4fa;
+$Lavender: #b4befe;
+
+$acent: $Red;
+
+$Text: #cdd6f4;
+
+$Subtext1: #bac2de;
+$Subtext0: #a6adc8;
+$Overlay2: #9399b2;
+$Overlay1: #7f849c;
+$Overlay0: #6c7086;
+$Surface2: #585b70;
+$Surface1: #45475a;
+$Surface0: #313244;
+
+$Base: #1e1e2e;
+$Mantle: #181825;
+$Crust: #11111b;
+
+
 
 // Notification & Alert.
 $red: #f38ba8;
@@ -106,17 +140,19 @@ $btn-back-text-color: #cdd6f4;
 $btn-back-background-hover: #7f849c;
 
 // Links
-$link-color: #7f849c;
-$link-hover-color: #7f849c;
-$link-active-color: #7f849c;
-$link-visited-color: #7f849c;
+$link-color: $Blue;
+$link-hover-color: $Blue;
+$link-active-color: $Blue;
+$link-visited-color: $Blue;
 
 // Icons
-$icon-color: #6c7086;
+$icon-color: $Subtext0;
 
 $btn-icon-color: $icon-color;
 $btn-icon-hover-color: lighten($icon-color, 20%);
 $btn-icon-disabled-color: darken($icon-color, 20%);
+
+$icon-content-color: $Crust;
 
 // Error messages
 $msg-bad-btn-color: $font-color;
@@ -163,6 +199,9 @@ $status-disabled-border-color: rgba(#cdd6f4, .2);
 
 $status-grey-border-color: #313244;
 
+$dashboard-my-bg-color: $Green;
+$dashboard-shared-bg-color: $Peach;
+
 // Multiselect
 $multiselect-selected-bg-color: #585b70;
 
@@ -184,7 +223,8 @@ $toc-title-color: #cdd6f4;
 $toc-title-bg-color: #45475a;
 
 // Important! @import string should come after variables
-@import 'screen.scss';
+@import 'zabbix/sass/stylesheets/sass/screen.scss';
+// @import 'screen.scss';
 
 .sidebar {
 	&.is-compact:not(.is-opened) {
