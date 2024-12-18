@@ -1,7 +1,8 @@
 # zabbix-catppuccin
 catppuccin-mocha theme for zabbix, If you want other flavors open an issue and I might make it.
 ## Preview
-![Screenshot 2024-10-16 at 21-48-08 zabbix leadseason eu Dashboard](https://github.com/user-attachments/assets/6789efd3-89c6-4915-8f10-689ec6425681)
+![Screenshot 2024-12-18 at 15-12-41 zabbix leadseason eu Dashboard](https://github.com/user-attachments/assets/35634259-13d4-4966-a047-02917d12d587)
+
 
 ### Alert colors
 Go to `Administration > General > Trigger displaying options` there you can change the alert colors.
