@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .timeline-axis {
-  border-right-color: #9a56ec !important; }
+  border-right-color: #9448ef !important; }
   .timeline-axis::before {
-    background-color: #9a56ec !important; }
+    background-color: #9448ef !important; }
 
 .totals-list.totals-list-horizontal .count,
 .totals-list.totals-list-horizontal .name, .overflow-ellipsis th a, .overflow-ellipsis th, .overflow-ellipsis td:not(.wordbreak, .wordwrap), .overflow-ellipsis, .tag, .overlay-descr-url, .notif-body h4, .menu-popup h3, .menu-popup .menu-popup-item, form.dashboard-widget-tophosts #list_columns .text, div.dashboard-widget-map .btn-back-map-container a:focus .btn-back-map .btn-back-map-content, div.dashboard-widget-map .btn-back-map-container a:hover .btn-back-map .btn-back-map-content, .list-table .action-container .link-action, .dashboard-grid-iterator-header h4, .dashboard-grid-widget-header h4, .dashboard-navigation-tabs .sortable li div span, .host-dashboard-header-navigation .host-dashboard-navigation .host-dashboard-navigation-tabs .sortable li div span, .sidebar .server-name {
@@ -2243,9 +2243,9 @@ button {
   padding: 4px;
   background: #11111b; }
   .diff .diff-added {
-    background-color: #b8e9b4; }
+    background-color: rgba(166, 227, 161, 0.2); }
   .diff .diff-removed {
-    background-color: #eba0ac; }
+    background-color: rgba(243, 139, 168, 0.2); }
   .diff pre {
     width: max-content;
     min-width: 100%; }
@@ -5829,7 +5829,7 @@ form.is-loading {
   border-left: 1px solid #313244; }
 
 .form-new-group {
-  border: 5px solid #b8e9b4;
+  border: 5px solid rgba(166, 227, 161, 0.2);
   border-radius: 2px;
   margin-left: -5px;
   padding: 4px 0; }
