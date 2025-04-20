@@ -1,3 +1,4 @@
 [submodule "zabbix"]
 	path = zabbix
 	url = https://git.zabbix.com/scm/zbx/zabbix.git
+    branch = 7.2.5
