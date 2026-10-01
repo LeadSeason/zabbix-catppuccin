@@ -126,6 +126,12 @@ $icon-content-color: $Crust;
 $msg-bad-btn-color: $Red;
 $msg-good-color: $Green;
 
+// Error messages.
+$msg-bad-color: $Red;
+$msg-bad-btn-color: $msg-bad-color;
+$msg-good-color: $Green;
+$msg-warning-color: $Peach;
+
 // Analog clock
 $clock-face-color: $Surface0;
 $clock-hand-color: $Text;
